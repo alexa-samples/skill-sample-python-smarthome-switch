@@ -1,0 +1,26 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "Sample Smart Home Skill - Python - Switch",
+          "examplePhrases": [],
+          "name": "skill-sample-python-smarthome-switch",
+          "description": "A sample Smart Home skill that implements a virtual switch in Python."
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "",
+      "category": "EDUCATION_AND_REFERENCE",
+      "distributionCountries": []
+    },
+    "apis": {
+      "smartHome": {
+        "endpoint": {
+          "sourceDir": "lambda/smarthome"
+        }
+      }
+    },
+    "manifestVersion": "1.0"
+  }
+}
